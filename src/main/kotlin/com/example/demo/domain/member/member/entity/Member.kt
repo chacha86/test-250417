@@ -1,5 +1,6 @@
-package com.example.demo.domain.member.member
+package com.example.demo.domain.member.member.entity
 
+import com.example.demo.global.entity.BaseTime
 import jakarta.persistence.Column
 import jakarta.persistence.Entity
 

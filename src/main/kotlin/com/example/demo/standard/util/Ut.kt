@@ -1,4 +1,10 @@
 package com.example.demo.standard.util
 
-class Ut {
+object Ut {
+    object str {
+        @JvmStatic
+        fun lcfirst(str: String): String {
+            return str[0].lowercaseChar() + str.substring(1)
+        }
+    }
 }
