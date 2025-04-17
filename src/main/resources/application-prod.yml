@@ -5,8 +5,8 @@ spring:
       host: redis_1
       password: ${custom.prod.redis.password}
   datasource:
-    url: jdbc:mysql://mysql_1:3306/back_prod
-    username: chacha
+    url: jdbc:mysql://mysql_1:3306/glog_prod
+    username: lldj
     password: "${custom.prod.db.password}"
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
